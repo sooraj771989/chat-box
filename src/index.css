@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333333;
+}
+
+
+
+.content {
+  padding: 20px;
+}
+
+.header {
+  padding: 10px;
+  background: #edf2f4;
+  border-bottom: 1px solid #999;
+}
+.header a {
+  color: #0072ff;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.header a:hover {
+  color: #8a0f53;
+}
+.header small {
+  color: #666;
+}
+.header .active {
+  color: #2c7613;
+}
+
+.sidebar-color{
+background:#2d323c;
+}
+
+.logo{
+  height: 30px;
+  width: 140px;
+}
+
+.chatbox-color{
+  background:#383e4b;
+}
+
+.small-icon{
+  height: 30px;
+  width: 30px;
+}
+
+.content-bar{
+  background:#383e4b;
+}
+
+.inputs{   
+   width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.inputs:focus{
+  outline:none;
+}
+
+.btn{
+  background: #164d9e;
+  color: white;
+  padding: 5px 40px;
+  border-radius: 6px ;
+}
+.bg-blue{
+  background: #164d9e;
+}
+.border-div{
+  border: 1px solid #b3b3b3;
+}
+
+.border-bottom{
+  border-bottom: 0.5px solid #b3b3b3;
+}
+
+.chat-icon{
+  height:10px;
+  width:10px;
+}
+
+.account-icon{
+  height:20px;
+  width:20px;
+}
+
+
+
+.comments{
+  width: fit-content;
+  padding: 10px;
+  background:#1b75bb;
+  color: white;
+  border-radius: 6px 0px 6px 6px;
+}
+
+.chat-items:hover{
+  cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
